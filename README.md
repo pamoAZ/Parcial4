@@ -11,84 +11,16 @@ del material atravesado.
 La ley de Beer fue descubierta independientemente (y de distintas maneras) por Pierre Bouguer en 1729, Johann Heinrich Lambert en 1760 y
 August Beer en 1852. En forma independiente, Wilhel Beer y Johann Lambert propusieron que la absorbancia de una muestra a
 determinada longitud de onda depende de la cantidad de especie absorbente con la que se encuentra la luz al pasar por la muestra.
+![ley-de-beer-lambert-2 (1)](https://user-images.githubusercontent.com/90355422/203150291-d88d41d8-b5c4-4b80-9187-e7b357d1f3d9.jpg)
 
 
-###  📋
+###  Relaciones 
+la ley de Beer-Lambert se describe como 
+![ley-lambert-beer-300x122](https://user-images.githubusercontent.com/90355422/203151054-3c95cdef-b3c9-43da-8510-ba3be6a0036a.png)
 
-_Que cosas necesitas para instalar el software y como instalarlas_
 
-```
-Da un ejemplo
-```
 
-### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+### Utilidad de la base de datos🔧
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
+A partir de la libreria sqlmodel se crean 3 clases que son las tablas donde se guardan los datos, **Enlace**, **Sustancia** y **Coeficiente**, a partir de la tabla se tienen una relacion entre dos llaves primarias del id del nombre de la sustancia y coeficiente de extincion molar, en las otras dos se guardan los datos de los parametros de cada sustancia, para **calcular ** la concentracion de la disolucion, gracias a la facilidad con la que se puede escribir un motor de vbase de datos uttilizando SQLmodel 
