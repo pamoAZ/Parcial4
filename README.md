@@ -11,11 +11,15 @@ del material atravesado.
 La ley de Beer fue descubierta independientemente (y de distintas maneras) por Pierre Bouguer en 1729, Johann Heinrich Lambert en 1760 y
 August Beer en 1852. En forma independiente, Wilhel Beer y Johann Lambert propusieron que la absorbancia de una muestra a
 determinada longitud de onda depende de la cantidad de especie absorbente con la que se encuentra la luz al pasar por la muestra.
+
+
 ![ley-de-beer-lambert-2 (1)](https://user-images.githubusercontent.com/90355422/203150291-d88d41d8-b5c4-4b80-9187-e7b357d1f3d9.jpg)
 
 
 ###  Relaciones 
 la ley de Beer-Lambert se describe como 
+
+
 ![ley-lambert-beer-300x122](https://user-images.githubusercontent.com/90355422/203151054-3c95cdef-b3c9-43da-8510-ba3be6a0036a.png)
 
 
