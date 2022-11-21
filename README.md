@@ -1,4 +1,4 @@
-# extincionMolard.db 
+# EXTINCIONMOLAR.db 
 En este proyecto se utiliza una libreria de python **SQLMODEL**para interactuar con bases de datos SQL desde código Python
 en donde se crea una base de datos con la capacidad de guardar datos locales, que se obtiene  a partir de la terminal del usuario, para hacer
 obtener relacion a partir de estos 
