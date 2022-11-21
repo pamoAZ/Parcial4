@@ -23,4 +23,7 @@ la ley de Beer-Lambert se describe como
 
 ### Utilidad de la base de datos🔧
 
-A partir de la libreria sqlmodel se crean 3 clases que son las tablas donde se guardan los datos, **Enlace**, **Sustancia** y **Coeficiente**, a partir de la tabla se tienen una relacion entre dos llaves primarias del id del nombre de la sustancia y coeficiente de extincion molar, en las otras dos se guardan los datos de los parametros de cada sustancia, para **calcular ** la concentracion de la disolucion, gracias a la facilidad con la que se puede escribir un motor de vbase de datos uttilizando SQLmodel 
+A partir de la libreria sqlmodel se crean 3 clases que son las tablas donde se guardan los datos, **Enlace**, **Sustancia** y **Coeficiente**, a partir de la tabla se tienen una relacion entre dos llaves primarias del id del nombre de la sustancia y coeficiente de extincion molar, en las otras dos se guardan los datos de los parametros de cada sustancia, para calcular  la concentracion de la disolucion, gracias a la facilidad con la que se puede escribir un motor de base de datos uttilizando SQLmodel.
+se utiliza controles de flujo para hacer un menu y mostrar al usuario las peticiones requeridas
+
+
